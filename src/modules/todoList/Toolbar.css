@@ -1,0 +1,12 @@
+.toolbar__container {
+    padding: 8px 12px;
+    background: grey;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.toolbar__search-field {
+    display: flex;
+    width: 200px;
+}

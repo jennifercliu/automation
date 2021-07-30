@@ -1,0 +1,24 @@
+.todo-item__container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 12px;
+}
+
+.todo-item__complete-checkbox {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-item__descriptions {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 400px;
+}
+
+.todo-item__title {
+    font-weight: 600;
+}

@@ -1,0 +1,21 @@
+.add-item__container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.add-item__title {
+    margin-bottom: 8px;
+}
+
+.add-item__title-field {
+    width: 200px;
+    margin-bottom: 8px;
+}
+
+.add-item__content-field {
+    width: 200px;
+    margin-bottom: 8px;
+}

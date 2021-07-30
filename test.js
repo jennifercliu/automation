@@ -45,7 +45,6 @@ test('Test 3: User can check or uncheck any items.', async t => {
         .typeText(t.ctx.contentInput, data.content)
         .click(t.ctx.saveButton)
         .click(t.ctx.checkBox) // check
-        .wait(2000)
         .expect(t.ctx.checkBox.checked).ok()
         .click(t.ctx.checkBox) // uncheck
         .expect(t.ctx.checkBox.checked).eql(false)
@@ -59,7 +58,6 @@ test('Test 4: User can search items by their title or content.', async t => {
         .click(t.ctx.saveButton)
         .typeText(t.ctx.searchInput, data.title)
         .expect(t.ctx.firstTitle.textContent).eql("Title: " + data.title)
-        .wait(2000)
         .selectText(t.ctx.searchInput)
         .pressKey('delete')
         .typeText(t.ctx.searchInput, data.content)
